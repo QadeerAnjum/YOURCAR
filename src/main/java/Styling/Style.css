@@ -1,0 +1,8 @@
+.background-image{
+    -fx-background-image: url("../image/car3.jpg");
+    -fx-background-repeat: stretch;
+}
+.backgroundcolor{
+
+-fx-background-color: rgba(73, 16, 69,0.8);
+}

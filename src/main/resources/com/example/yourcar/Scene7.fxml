@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.text.Font?>
+
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="509.0" prefWidth="764.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.yourcar.HelloController">
+   <center>
+      <AnchorPane prefHeight="200.0" prefWidth="200.0" style="-fx-background-color: #808080;" BorderPane.alignment="CENTER">
+         <children>
+            <ImageView fitHeight="244.0" fitWidth="433.0" layoutX="143.0" layoutY="14.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@Cruiser.png" />
+               </image>
+            </ImageView>
+            <Label layoutX="14.0" layoutY="222.0" prefHeight="31.0" prefWidth="235.0" text="RENT PER DAY : Rs 20,000 ">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Label>
+            <Label layoutX="219.0" layoutY="279.0" prefHeight="32.0" prefWidth="314.0" text="ENTER THE NUMBER OF DAYS">
+               <font>
+                  <Font size="22.0" />
+               </font>
+            </Label>
+            <TextField layoutX="261.0" layoutY="323.0" prefHeight="32.0" prefWidth="211.0" />
+            <Label layoutX="66.0" layoutY="410.0" prefHeight="38.0" prefWidth="155.0" text="TOTAL BILL :">
+               <font>
+                  <Font size="25.0" />
+               </font>
+            </Label>
+            <TextField layoutX="264.0" layoutY="410.0" prefHeight="34.0" prefWidth="206.0" />
+            <Button layoutX="566.0" layoutY="429.0" mnemonicParsing="false" onAction="#switchToTHANKYOU" text="SUBMIT">
+               <font>
+                  <Font size="15.0" />
+               </font>
+            </Button>
+         </children>
+      </AnchorPane>
+   </center>
+</BorderPane>
